@@ -20,6 +20,7 @@ class SampleListViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view = tableView
+        tableView.accessibilityIdentifier = "access_tableview"
         tableView.register(SampleItemCell.self, forCellReuseIdentifier: SampleItemCell.swiftIdentifier)
     }
 }
