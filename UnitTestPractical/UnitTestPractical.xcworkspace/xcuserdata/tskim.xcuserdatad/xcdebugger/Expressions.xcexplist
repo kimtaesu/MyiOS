@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "SampleListReactor.reduce(state:mutation:):SampleListReactor.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #2 in closure #2 in SampleListViewControllerTest.spec():SampleListViewControllerTest.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "viewController.tableView.visibleCells">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

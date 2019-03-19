@@ -15,7 +15,6 @@
 		BD52E735223FAC7B00A7A3E9 /* UnitTestPractical.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD52E733223FAC7B00A7A3E9 /* UnitTestPractical.xcdatamodeld */; };
 		BD52E737223FAC7C00A7A3E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD52E736223FAC7C00A7A3E9 /* Assets.xcassets */; };
 		BD52E73A223FAC7C00A7A3E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD52E738223FAC7C00A7A3E9 /* LaunchScreen.storyboard */; };
-		BD52E745223FAC7C00A7A3E9 /* UnitTestPracticalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD52E744223FAC7C00A7A3E9 /* UnitTestPracticalTests.swift */; };
 		BD52E750223FAC7C00A7A3E9 /* UnitTestPracticalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD52E74F223FAC7C00A7A3E9 /* UnitTestPracticalUITests.swift */; };
 		BD52E75F223FAD0E00A7A3E9 /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD52E75E223FAD0E00A7A3E9 /* Sample.swift */; };
 		BD52E761223FAD1900A7A3E9 /* SampleRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD52E760223FAD1900A7A3E9 /* SampleRepository.swift */; };
@@ -26,6 +25,9 @@
 		BD52E76D223FB2F300A7A3E9 /* SwiftNameIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD52E76C223FB2F300A7A3E9 /* SwiftNameIdentifier.swift */; };
 		BD52E76F223FB36200A7A3E9 /* SampleItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD52E76E223FB36200A7A3E9 /* SampleItemCell.swift */; };
 		BD52E772223FB60600A7A3E9 /* SampleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD52E771223FB60600A7A3E9 /* SampleDetailViewController.swift */; };
+		BD52E776223FBE2E00A7A3E9 /* SampleRepositoryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD52E775223FBE2E00A7A3E9 /* SampleRepositoryTest.swift */; };
+		BD52E778223FBE6A00A7A3E9 /* SampleListViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD52E777223FBE6A00A7A3E9 /* SampleListViewControllerTest.swift */; };
+		BD58770C22406F8A004A31A3 /* SampleListReactorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD58770B22406F8A004A31A3 /* SampleListReactorTest.swift */; };
 		E32FE318F911D2637D84B6F7 /* Pods_UnitTestPracticalUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E108D5F753B867A7B7FB6F /* Pods_UnitTestPracticalUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,7 +67,6 @@
 		BD52E739223FAC7C00A7A3E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD52E73B223FAC7C00A7A3E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD52E740223FAC7C00A7A3E9 /* UnitTestPracticalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTestPracticalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD52E744223FAC7C00A7A3E9 /* UnitTestPracticalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestPracticalTests.swift; sourceTree = "<group>"; };
 		BD52E746223FAC7C00A7A3E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD52E74B223FAC7C00A7A3E9 /* UnitTestPracticalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTestPracticalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD52E74F223FAC7C00A7A3E9 /* UnitTestPracticalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestPracticalUITests.swift; sourceTree = "<group>"; };
@@ -79,6 +80,9 @@
 		BD52E76C223FB2F300A7A3E9 /* SwiftNameIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNameIdentifier.swift; sourceTree = "<group>"; };
 		BD52E76E223FB36200A7A3E9 /* SampleItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleItemCell.swift; sourceTree = "<group>"; };
 		BD52E771223FB60600A7A3E9 /* SampleDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleDetailViewController.swift; sourceTree = "<group>"; };
+		BD52E775223FBE2E00A7A3E9 /* SampleRepositoryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleRepositoryTest.swift; sourceTree = "<group>"; };
+		BD52E777223FBE6A00A7A3E9 /* SampleListViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleListViewControllerTest.swift; sourceTree = "<group>"; };
+		BD58770B22406F8A004A31A3 /* SampleListReactorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleListReactorTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,8 +168,10 @@
 		BD52E743223FAC7C00A7A3E9 /* UnitTestPracticalTests */ = {
 			isa = PBXGroup;
 			children = (
-				BD52E744223FAC7C00A7A3E9 /* UnitTestPracticalTests.swift */,
 				BD52E746223FAC7C00A7A3E9 /* Info.plist */,
+				BD52E775223FBE2E00A7A3E9 /* SampleRepositoryTest.swift */,
+				BD52E777223FBE6A00A7A3E9 /* SampleListViewControllerTest.swift */,
+				BD58770B22406F8A004A31A3 /* SampleListReactorTest.swift */,
 			);
 			path = UnitTestPracticalTests;
 			sourceTree = "<group>";
@@ -357,10 +363,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-UnitTestPracticalTests/Pods-UnitTestPracticalTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
 				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
 				"${BUILT_PRODUCTS_DIR}/RxBlocking/RxBlocking.framework",
+				"${BUILT_PRODUCTS_DIR}/RxExpect/RxExpect.framework",
 				"${BUILT_PRODUCTS_DIR}/RxTest/RxTest.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -368,10 +376,12 @@
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxExpect.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxTest.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -585,7 +595,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD52E745223FAC7C00A7A3E9 /* UnitTestPracticalTests.swift in Sources */,
+				BD52E778223FBE6A00A7A3E9 /* SampleListViewControllerTest.swift in Sources */,
+				BD52E776223FBE2E00A7A3E9 /* SampleRepositoryTest.swift in Sources */,
+				BD58770C22406F8A004A31A3 /* SampleListReactorTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

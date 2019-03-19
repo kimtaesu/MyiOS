@@ -20,6 +20,7 @@ target 'UnitTestPractical' do
     pod 'Nimble', '~> 7.3'
     pod 'RxBlocking', '~> 4.0'
     pod 'RxTest',     '~> 4.0'
+    pod 'RxExpect'
   end
 
   target 'UnitTestPracticalUITests' do

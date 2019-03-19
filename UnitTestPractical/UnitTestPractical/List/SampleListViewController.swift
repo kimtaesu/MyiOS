@@ -15,7 +15,19 @@ import RxOptional
 
 class SampleListViewController: UIViewController {
 
-    private let tableView = UITableView()
+    internal let tableView = UITableView()
+
+    internal let dataSource = RxTableViewSectionedAnimatedDataSource<MySection>(
+        configureCell: { ds, tv, ip, item in
+            guard let cell: SampleItemCell = tv.dequeueReusableCell(withIdentifier: SampleItemCell.swiftIdentifier) as? SampleItemCell
+                else { return UITableViewCell.init(style: .default, reuseIdentifier: "") }
+            cell.configCell(item)
+            return cell
+        },
+        titleForHeaderInSection: { ds, index in
+            return ds.sectionModels[index].header
+        }
+    )
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,18 +46,6 @@ extension SampleListViewController: View, HasDisposeBag {
             .disposed(by: disposeBag)
 
         reactor.action.onNext(.search("a"))
-
-        let dataSource = RxTableViewSectionedAnimatedDataSource<MySection>(
-            configureCell: { ds, tv, ip, item in
-                guard let cell: SampleItemCell = tv.dequeueReusableCell(withIdentifier: SampleItemCell.swiftIdentifier) as? SampleItemCell
-                    else { return UITableViewCell.init(style: .default, reuseIdentifier: "") }
-                cell.configCell(item)
-                return cell
-            },
-            titleForHeaderInSection: { ds, index in
-                return ds.sectionModels[index].header
-            }
-        )
 
         reactor.state.map { $0.items }
             .filterEmpty()

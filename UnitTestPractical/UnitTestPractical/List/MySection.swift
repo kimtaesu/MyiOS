@@ -9,7 +9,7 @@
 import RxDataSources
 import Differentiator
 
-struct MySection {
+struct MySection: Equatable {
     var header: String
     var items: [Item]
 }

@@ -10,7 +10,7 @@ import UIKit
 import SnapKit
 
 class SampleItemCell: UITableViewCell, SwiftNameIdentifier {
-    private let title = UILabel()
+    internal let titleView = UILabel()
 
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
@@ -22,7 +22,7 @@ class SampleItemCell: UITableViewCell, SwiftNameIdentifier {
     }
 
     private func initViews() {
-        title.do {
+        titleView.do {
             contentView.addSubview($0)
             $0.snp.makeConstraints({ make in
                 make.leading.equalToSuperview()
@@ -35,6 +35,6 @@ class SampleItemCell: UITableViewCell, SwiftNameIdentifier {
 
 extension SampleItemCell {
     func configCell(_ item: String) {
-        self.title.text = item
+        self.titleView.text = item
     }
 }
