@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PeekNPop" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v5d-ZS-bt3">
+                                <rect key="frame" x="20" y="40" width="335" height="100"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dfe-1W-PtI">
+                                        <rect key="frame" x="20" y="35" width="30" height="30"/>
+                                        <state key="normal" title="Cat"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yBo-Sk-Y1M">
+                                        <rect key="frame" x="131" y="35" width="30" height="30"/>
+                                        <state key="normal" title="Dog"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3UK-ac-3fW">
+                                        <rect key="frame" x="264" y="35" width="51" height="30"/>
+                                        <state key="normal" title="Banana"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="3UK-ac-3fW" firstAttribute="centerY" secondItem="v5d-ZS-bt3" secondAttribute="centerY" id="0FF-Uf-2EP"/>
+                                    <constraint firstAttribute="trailing" secondItem="3UK-ac-3fW" secondAttribute="trailing" constant="20" id="2JP-f3-84O"/>
+                                    <constraint firstItem="yBo-Sk-Y1M" firstAttribute="centerY" secondItem="v5d-ZS-bt3" secondAttribute="centerY" id="7Bh-2T-is6"/>
+                                    <constraint firstItem="dfe-1W-PtI" firstAttribute="leading" secondItem="v5d-ZS-bt3" secondAttribute="leading" constant="20" id="O7L-G1-FC3"/>
+                                    <constraint firstItem="dfe-1W-PtI" firstAttribute="centerY" secondItem="v5d-ZS-bt3" secondAttribute="centerY" id="bPm-AX-kba"/>
+                                    <constraint firstAttribute="height" constant="100" id="cjA-gS-pnN"/>
+                                    <constraint firstItem="yBo-Sk-Y1M" firstAttribute="centerX" secondItem="v5d-ZS-bt3" secondAttribute="centerX" id="eE3-GY-c0c"/>
+                                </constraints>
+                            </view>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qPG-ZQ-4Jg">
+                                <rect key="frame" x="0.0" y="467" width="375" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="UWM-zx-ezz"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="Nh4-dJ-cSE" kind="embed" id="z0D-Ay-Mvj"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="v5d-ZS-bt3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="0QD-pO-dHK"/>
+                            <constraint firstItem="v5d-ZS-bt3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="9mL-gu-XFI"/>
+                            <constraint firstItem="qPG-ZQ-4Jg" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="ANc-s4-yFD"/>
+                            <constraint firstItem="v5d-ZS-bt3" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Cfy-1y-Jwj"/>
+                            <constraint firstItem="qPG-ZQ-4Jg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="GGy-Eh-oj3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="qPG-ZQ-4Jg" secondAttribute="bottom" id="HU9-yl-hh4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="v5d-ZS-bt3" secondAttribute="trailing" constant="20" id="p6Z-tb-VJv"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="bananaButton" destination="3UK-ac-3fW" id="52w-MW-A7Z"/>
+                        <outlet property="catButton" destination="dfe-1W-PtI" id="lkP-0a-WHs"/>
+                        <outlet property="container" destination="qPG-ZQ-4Jg" id="dYv-FG-wr7"/>
+                        <outlet property="dogButton" destination="yBo-Sk-Y1M" id="ENh-0D-cfv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="heT-DZ-gPx">
+            <objects>
+                <viewController id="Nh4-dJ-cSE" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Hsm-CS-W8Q">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T7M-r0-MEr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
