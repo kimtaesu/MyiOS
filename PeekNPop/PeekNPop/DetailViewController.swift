@@ -48,7 +48,7 @@ extension DetailViewController {
         let group = UIPreviewActionGroup(title: "status", style: .default, actions: [act1, act2, act3])
         // example of selected style
         return [single, group]
-    }   
+    }
 }
 extension DetailViewController {
     class func createVC(_ type: DetailType) -> DetailViewController {

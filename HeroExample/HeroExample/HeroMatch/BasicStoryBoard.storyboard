@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="21U-bx-y57">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tW4-VA-QOh">
+            <objects>
+                <viewController id="21U-bx-y57" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BEF-eL-cZa">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d2p-lW-fqG">
+                                <rect key="frame" x="20" y="403" width="100" height="100"/>
+                                <color key="backgroundColor" name="alternateSelectedControlColor" catalog="System" colorSpace="catalog"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="96g-Tu-09Y"/>
+                                    <constraint firstAttribute="width" constant="100" id="a5e-UL-ZIX"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="heroID" value="blueButton"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="heroModifierString" value="arc"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fDK-aY-PwG">
+                                <rect key="frame" x="191" y="782" width="32" height="30"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <segue destination="6Me-d4-4Km" kind="show" id="6SH-DL-5Q1"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blue" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o8l-bu-ICn">
+                                <rect key="frame" x="53" y="366" width="34" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="heroID" value="blueLabel"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="d2p-lW-fqG" firstAttribute="top" secondItem="o8l-bu-ICn" secondAttribute="bottom" constant="16" id="10U-4j-8mt"/>
+                            <constraint firstItem="o8l-bu-ICn" firstAttribute="centerX" secondItem="d2p-lW-fqG" secondAttribute="centerX" id="1TP-pW-bRM"/>
+                            <constraint firstItem="d2p-lW-fqG" firstAttribute="leading" secondItem="c4S-8x-2Qg" secondAttribute="leading" constant="20" id="69A-w7-LKn"/>
+                            <constraint firstItem="c4S-8x-2Qg" firstAttribute="bottom" secondItem="fDK-aY-PwG" secondAttribute="bottom" constant="50" id="G0G-Hx-Lj3"/>
+                            <constraint firstItem="d2p-lW-fqG" firstAttribute="centerY" secondItem="c4S-8x-2Qg" secondAttribute="centerY" id="HXO-3P-Hmb"/>
+                            <constraint firstItem="fDK-aY-PwG" firstAttribute="centerX" secondItem="c4S-8x-2Qg" secondAttribute="centerX" id="iJ6-dp-lL8"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="c4S-8x-2Qg"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HUz-4n-GHz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="271.01449275362319" y="50.892857142857139"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Dd0-f4-i34">
+            <objects>
+                <viewController id="6Me-d4-4Km" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VbP-fl-7ly">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ug6-aJ-KDJ">
+                                <rect key="frame" x="50" y="194" width="200" height="150"/>
+                                <color key="backgroundColor" name="alternateSelectedControlColor" catalog="System" colorSpace="catalog"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="T5y-mh-thC"/>
+                                    <constraint firstAttribute="width" constant="200" id="khy-72-G7p"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="heroID" value="blueButton"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="heroModifierString" value="arc"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blue" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9eT-zA-lKb">
+                                <rect key="frame" x="133" y="159" width="34" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="heroID" value="blueLabel"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nVv-1U-NWA">
+                                <rect key="frame" x="190" y="782" width="34" height="30"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <action selector="hero_dismissViewController" destination="6Me-d4-4Km" eventType="touchUpInside" id="N9f-wz-xXW"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ug6-aJ-KDJ" firstAttribute="top" secondItem="Vta-2Z-ec0" secondAttribute="top" constant="150" id="1X1-tn-Yxg"/>
+                            <constraint firstItem="Vta-2Z-ec0" firstAttribute="bottom" secondItem="nVv-1U-NWA" secondAttribute="bottom" constant="50" id="5WN-dk-VGJ"/>
+                            <constraint firstItem="9eT-zA-lKb" firstAttribute="centerX" secondItem="ug6-aJ-KDJ" secondAttribute="centerX" id="BeX-kt-rRz"/>
+                            <constraint firstItem="ug6-aJ-KDJ" firstAttribute="top" secondItem="9eT-zA-lKb" secondAttribute="bottom" constant="14" id="MqB-T5-WDh"/>
+                            <constraint firstItem="nVv-1U-NWA" firstAttribute="centerX" secondItem="Vta-2Z-ec0" secondAttribute="centerX" id="Ngo-Bs-Haa"/>
+                            <constraint firstItem="ug6-aJ-KDJ" firstAttribute="leading" secondItem="Vta-2Z-ec0" secondAttribute="leading" constant="50" id="ZBa-0R-uCw"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Vta-2Z-ec0"/>
+                    </view>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabled" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BU0-dW-MJa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1078" y="51"/>
+        </scene>
+    </scenes>
+</document>

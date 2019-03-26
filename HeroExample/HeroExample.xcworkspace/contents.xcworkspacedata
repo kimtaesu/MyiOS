@@ -2,10 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "container:HeroPractices.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:HeroPractices.xcodeproj">
+      location = "group:HeroExample.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

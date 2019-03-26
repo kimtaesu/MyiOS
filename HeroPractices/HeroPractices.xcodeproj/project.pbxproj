@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		283B648FCB475D446908D636 /* Pods_HeroPracticesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 679EF0EF2EC767C005C6E170 /* Pods_HeroPracticesTests.framework */; };
+		BD01C82D2248E60C002E9261 /* ViewTransitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD01C82C2248E60C002E9261 /* ViewTransitionController.swift */; };
+		BD01C82F2248E994002E9261 /* MatchingExmapleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD01C82E2248E994002E9261 /* MatchingExmapleViewController.swift */; };
+		BD01C8312248EC2F002E9261 /* ExampleBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD01C8302248EC2F002E9261 /* ExampleBaseViewController.swift */; };
+		BD01C8332248ED74002E9261 /* MatchInCollectionExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD01C8322248ED74002E9261 /* MatchInCollectionExampleViewController.swift */; };
 		BDC96B362247A94200C2015E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC96B352247A94200C2015E /* AppDelegate.swift */; };
 		BDC96B382247A94200C2015E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC96B372247A94200C2015E /* ViewController.swift */; };
 		BDC96B3B2247A94200C2015E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDC96B392247A94200C2015E /* Main.storyboard */; };
@@ -43,6 +47,10 @@
 		679EF0EF2EC767C005C6E170 /* Pods_HeroPracticesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeroPracticesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E4EAA0997D77B09BD8AEDB0 /* Pods-HeroPractices.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeroPractices.debug.xcconfig"; path = "Target Support Files/Pods-HeroPractices/Pods-HeroPractices.debug.xcconfig"; sourceTree = "<group>"; };
 		8B6B8A6445945DB92E412740 /* Pods-HeroPracticesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeroPracticesTests.release.xcconfig"; path = "Target Support Files/Pods-HeroPracticesTests/Pods-HeroPracticesTests.release.xcconfig"; sourceTree = "<group>"; };
+		BD01C82C2248E60C002E9261 /* ViewTransitionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTransitionController.swift; sourceTree = "<group>"; };
+		BD01C82E2248E994002E9261 /* MatchingExmapleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchingExmapleViewController.swift; sourceTree = "<group>"; };
+		BD01C8302248EC2F002E9261 /* ExampleBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleBaseViewController.swift; sourceTree = "<group>"; };
+		BD01C8322248ED74002E9261 /* MatchInCollectionExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchInCollectionExampleViewController.swift; sourceTree = "<group>"; };
 		BDC96B322247A94200C2015E /* HeroPractices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeroPractices.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDC96B352247A94200C2015E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDC96B372247A94200C2015E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -111,7 +119,6 @@
 				1E2A87556E1193C6BBB2C281 /* Pods-HeroPracticesUITests.debug.xcconfig */,
 				D76A690D03D8791DEAAE4FC1 /* Pods-HeroPracticesUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -147,6 +154,10 @@
 				BDC96B412247A94300C2015E /* LaunchScreen.storyboard */,
 				BDC96B442247A94300C2015E /* Info.plist */,
 				BDC96B3C2247A94200C2015E /* HeroPractices.xcdatamodeld */,
+				BD01C82C2248E60C002E9261 /* ViewTransitionController.swift */,
+				BD01C82E2248E994002E9261 /* MatchingExmapleViewController.swift */,
+				BD01C8302248EC2F002E9261 /* ExampleBaseViewController.swift */,
+				BD01C8322248ED74002E9261 /* MatchInCollectionExampleViewController.swift */,
 			);
 			path = HeroPractices;
 			sourceTree = "<group>";
@@ -395,9 +406,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD01C8332248ED74002E9261 /* MatchInCollectionExampleViewController.swift in Sources */,
 				BDC96B3E2247A94200C2015E /* HeroPractices.xcdatamodeld in Sources */,
 				BDC96B382247A94200C2015E /* ViewController.swift in Sources */,
+				BD01C8312248EC2F002E9261 /* ExampleBaseViewController.swift in Sources */,
 				BDC96B362247A94200C2015E /* AppDelegate.swift in Sources */,
+				BD01C82D2248E60C002E9261 /* ViewTransitionController.swift in Sources */,
+				BD01C82F2248E994002E9261 /* MatchingExmapleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
