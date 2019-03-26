@@ -10,9 +10,9 @@ import UIKit
 import SnapKit
 import Hero
 
-class SnapkitMatchViewController: UIViewController {
+class SnapkitMatchViewController: ExampleBaseViewController {
     private let nextButton: UIButton = {
-        let button = UIButton()
+        let button = UIButton(type: .system)
         button.setTitle("Next", for: .normal)
         button.setTitleColor(UIColor.black, for: .normal)
         return button
@@ -67,7 +67,7 @@ class SnapkitMatchViewController: UIViewController {
 }
 
 
-class SnapkitMatchViewController2: UIViewController {
+class SnapkitMatchViewController2: ExampleBaseViewController {
     private let backButton: UIButton = {
         let button = UIButton()
         button.setTitle("Back", for: .normal)

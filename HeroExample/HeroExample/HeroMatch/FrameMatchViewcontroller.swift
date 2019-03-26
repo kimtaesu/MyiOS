@@ -9,9 +9,9 @@
 import UIKit
 import Hero
 
-class FrameMatchViewcontroller: UIViewController {
+class FrameMatchViewcontroller: ExampleBaseViewController {
     private let nextButton: UIButton = {
-        let button = UIButton()
+        let button = UIButton(type: .system)
         button.setTitle("Next", for: .normal)
         button.setTitleColor(UIColor.black, for: .normal)
         return button
@@ -62,7 +62,7 @@ class FrameMatchViewcontroller: UIViewController {
 }
 
 
-class FrameMatchViewcontroller2: UIViewController {
+class FrameMatchViewcontroller2: ExampleBaseViewController {
     private let backButton: UIButton = {
         let button = UIButton()
         button.setTitle("Back", for: .normal)

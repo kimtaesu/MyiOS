@@ -19,6 +19,7 @@
 		BD101BD8224A3856004562F5 /* BasicStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD101BD7224A3856004562F5 /* BasicStoryBoard.storyboard */; };
 		BD101BDD224A3BCB004562F5 /* SnapkitMatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD101BDC224A3BCB004562F5 /* SnapkitMatchViewController.swift */; };
 		BD101BDF224A4080004562F5 /* FrameMatchViewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD101BDE224A4080004562F5 /* FrameMatchViewcontroller.swift */; };
+		BD101BE2224A44AE004562F5 /* ExampleBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD101BE1224A44AE004562F5 /* ExampleBaseViewController.swift */; };
 		E24240B6FF843444F611794F /* Pods_HeroExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F6E2CE758721BEBD8113A13 /* Pods_HeroExample.framework */; };
 		E5DCEA4223E830587EB7B904 /* Pods_HeroExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E865F2FF946891FB124A61C6 /* Pods_HeroExampleUITests.framework */; };
 /* End PBXBuildFile section */
@@ -65,6 +66,7 @@
 		BD101BD7224A3856004562F5 /* BasicStoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BasicStoryBoard.storyboard; sourceTree = "<group>"; };
 		BD101BDC224A3BCB004562F5 /* SnapkitMatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapkitMatchViewController.swift; sourceTree = "<group>"; };
 		BD101BDE224A4080004562F5 /* FrameMatchViewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameMatchViewcontroller.swift; sourceTree = "<group>"; };
+		BD101BE1224A44AE004562F5 /* ExampleBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleBaseViewController.swift; sourceTree = "<group>"; };
 		E865F2FF946891FB124A61C6 /* Pods_HeroExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeroExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED09456BD4D873FD12A61FB1 /* Pods-HeroExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeroExampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-HeroExampleUITests/Pods-HeroExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -145,6 +147,7 @@
 		BD101BA5224A37C5004562F5 /* HeroExample */ = {
 			isa = PBXGroup;
 			children = (
+				BD101BE0224A4483004562F5 /* N */,
 				BD101BD9224A385B004562F5 /* HeroMatch */,
 				BD101BA6224A37C5004562F5 /* AppDelegate.swift */,
 				BD101BA8224A37C5004562F5 /* ViewController.swift */,
@@ -153,6 +156,7 @@
 				BD101BB2224A37C6004562F5 /* LaunchScreen.storyboard */,
 				BD101BB5224A37C6004562F5 /* Info.plist */,
 				BD101BAD224A37C5004562F5 /* HeroExample.xcdatamodeld */,
+				BD101BE1224A44AE004562F5 /* ExampleBaseViewController.swift */,
 			);
 			path = HeroExample;
 			sourceTree = "<group>";
@@ -183,6 +187,13 @@
 				BD101BDE224A4080004562F5 /* FrameMatchViewcontroller.swift */,
 			);
 			path = HeroMatch;
+			sourceTree = "<group>";
+		};
+		BD101BE0224A4483004562F5 /* N */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = N;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -416,6 +427,7 @@
 			files = (
 				BD101BA9224A37C5004562F5 /* ViewController.swift in Sources */,
 				BD101BAF224A37C5004562F5 /* HeroExample.xcdatamodeld in Sources */,
+				BD101BE2224A44AE004562F5 /* ExampleBaseViewController.swift in Sources */,
 				BD101BDF224A4080004562F5 /* FrameMatchViewcontroller.swift in Sources */,
 				BD101BDD224A3BCB004562F5 /* SnapkitMatchViewController.swift in Sources */,
 				BD101BA7224A37C5004562F5 /* AppDelegate.swift in Sources */,

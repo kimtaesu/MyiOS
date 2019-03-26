@@ -46,6 +46,13 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="heroID" value="blueLabel"/>
                                 </userDefinedRuntimeAttributes>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qk6-cO-dsU">
+                                <rect key="frame" x="20" y="52" width="34" height="30"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <action selector="hero_dismissViewController" destination="21U-bx-y57" eventType="touchUpInside" id="cnZ-4x-xGV"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -54,7 +61,9 @@
                             <constraint firstItem="d2p-lW-fqG" firstAttribute="leading" secondItem="c4S-8x-2Qg" secondAttribute="leading" constant="20" id="69A-w7-LKn"/>
                             <constraint firstItem="c4S-8x-2Qg" firstAttribute="bottom" secondItem="fDK-aY-PwG" secondAttribute="bottom" constant="50" id="G0G-Hx-Lj3"/>
                             <constraint firstItem="d2p-lW-fqG" firstAttribute="centerY" secondItem="c4S-8x-2Qg" secondAttribute="centerY" id="HXO-3P-Hmb"/>
+                            <constraint firstItem="Qk6-cO-dsU" firstAttribute="top" secondItem="c4S-8x-2Qg" secondAttribute="top" constant="8" id="UOO-xs-GhU"/>
                             <constraint firstItem="fDK-aY-PwG" firstAttribute="centerX" secondItem="c4S-8x-2Qg" secondAttribute="centerX" id="iJ6-dp-lL8"/>
+                            <constraint firstItem="Qk6-cO-dsU" firstAttribute="leading" secondItem="c4S-8x-2Qg" secondAttribute="leading" constant="20" id="jts-3p-m57"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="c4S-8x-2Qg"/>
                     </view>

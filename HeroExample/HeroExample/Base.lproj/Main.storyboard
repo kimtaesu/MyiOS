@@ -39,14 +39,32 @@
                                     <action selector="basicFrame:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fr0-5E-QVS"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p4g-mI-EqA">
+                                <rect key="frame" x="149" y="240" width="116" height="30"/>
+                                <state key="normal" title="Basic UINavigate"/>
+                                <connections>
+                                    <action selector="basicNavigation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dw6-29-IGv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q9v-lr-Zka">
+                                <rect key="frame" x="162.5" y="285" width="89" height="30"/>
+                                <state key="normal" title="Basic TabBar"/>
+                                <connections>
+                                    <action selector="basicTab:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mb7-rT-ZXk"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="q9v-lr-Zka" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="0iH-pb-mfe"/>
+                            <constraint firstItem="p4g-mI-EqA" firstAttribute="top" secondItem="728-Un-izt" secondAttribute="bottom" constant="15" id="285-ua-nTU"/>
                             <constraint firstItem="cDO-tN-JfE" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Bnv-EP-gki"/>
                             <constraint firstItem="728-Un-izt" firstAttribute="top" secondItem="cDO-tN-JfE" secondAttribute="bottom" constant="15" id="EfG-hp-eEW"/>
+                            <constraint firstItem="q9v-lr-Zka" firstAttribute="top" secondItem="p4g-mI-EqA" secondAttribute="bottom" constant="15" id="HlG-Bc-5Nh"/>
                             <constraint firstItem="728-Un-izt" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="JKt-9r-geI"/>
                             <constraint firstItem="doj-ey-OTx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="61" id="LTA-3Q-HoQ"/>
                             <constraint firstItem="cDO-tN-JfE" firstAttribute="top" secondItem="doj-ey-OTx" secondAttribute="bottom" constant="15" id="Q6t-E2-U6k"/>
+                            <constraint firstItem="p4g-mI-EqA" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="kjS-4d-9sW"/>
                             <constraint firstItem="doj-ey-OTx" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="pQZ-ht-SdJ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
